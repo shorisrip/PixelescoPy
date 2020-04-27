@@ -4,9 +4,9 @@ To display pictures one by one, for a fixed duration, without repetition from a 
 
 ## Roadmap
 ___
-To show only those pictures which have not been viewed since specified number of days.
 To add proper exceptions
 To add UI
+To improve the view picture methods
 
 ## Requirements
 * python3
