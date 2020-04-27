@@ -1,5 +1,5 @@
 from peewee import *
-
+import datetime
 
 db = SqliteDatabase('view_memory.db')
 
@@ -7,8 +7,9 @@ class BaseModel(Model):
     class Meta:
         database = db
 
-class Picture(BaseModel):
-    filepath = CharField(unique=True)
-    status = CharField(choices=['not_viewed', 'viewed', 'skipped'])
-    viewed_date = DateTimeField()
+class Image(BaseModel):
+    filepath = CharField(unique=True, null=False)
+    status = CharField(choices=['not_viewed', 'viewed', 'skipped'], null=False)
+    viewed_date = DateTimeField(null=True)
+    created_date = DateTimeField(default=datetime.datetime.now)
 
