@@ -12,3 +12,7 @@ To add UI
 * python3
 * python3-pip
 * ```pip install requirements.txt```
+
+## To run
+* Run initialize_db.py
+* Chnage the input section in base.py
