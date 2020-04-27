@@ -15,4 +15,4 @@ To add UI
 
 ## To run
 * Run initialize_db.py
-* Chnage the input section in base.py
+* Change the input section in base.py
