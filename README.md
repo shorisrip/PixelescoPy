@@ -6,12 +6,12 @@ To display pictures one by one, for a fixed duration, without repetition from a 
 ___
 To add proper exceptions
 To add UI
-To improve the view picture methods
+To improve the view picture methods
 
 ## Requirements
 * python3
 * python3-pip
-* ```pip install requirements.txt```
+* ```pip install -r requirements.txt```
 
 ## To run
 * Run initialize_db.py
