@@ -10,10 +10,6 @@ timer = 1
 ################################################################################
 
 
-# files_matched = list_all_pictures(file_path, file_extensions)
-# populate_db_with_paths(files_matched)
-
-
 files_matched = list_all_pictures(file_path, file_extensions)
 files_not_viewed = files_matched
 
