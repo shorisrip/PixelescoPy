@@ -85,3 +85,10 @@ def is_not_viewed(file_path):
         status = not_viewed
         populate_db(file_path, status)
         return True
+
+
+def mark_all_as_not_viewed():
+    all_picture_list = list(Image.select())
+    for image_record in all_picture_list:
+        image_record.status = not_viewed
+        image_record.save()
