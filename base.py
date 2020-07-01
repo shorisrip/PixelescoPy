@@ -12,7 +12,7 @@ def worker(guiObj):
     # Input file path, desired extensions and timer in seconds
     file_path = "/Users/kaermorhen/Desktop/tkinter_files/images/"
     file_extensions = ('.jpg', '.png')
-    timer = 3
+    timer = 10
     ################################################################################
 
 
