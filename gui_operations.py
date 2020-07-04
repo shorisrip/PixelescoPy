@@ -12,6 +12,7 @@ class GuiWindow():
         self.image = None
         self.folder_path = None
         self.timer = None
+        self.root.protocol("WM_DELETE_WINDOW", self.exit_button)
 
     def set_picture_obj(self, picture_obj):
         self.picture_obj = picture_obj
