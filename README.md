@@ -1,4 +1,4 @@
-## What is it
+## What is it ?
 
 PixelescoPy is an application for Concept Designers and Artists in line with the concept of '30 seconds draw'. Most Concept Artists have a treasure of references, master study or model pose 
 libraries on their desktops. Point this application to the folder and set a timer - it would display pictures from the folder (and its subfolders) one after the other at random for <timer> seeconds
@@ -25,7 +25,7 @@ libraries on their desktops. Point this application to the folder and set a time
 ## Requirements
 - python3
 - python3-pip
-,
+- ```pip install -r requirements.txt```
 
 ## To run
 - Open an IDE and clone the project. (I am going with PyCharm here)
