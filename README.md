@@ -1,12 +1,12 @@
 ## Use case
 ___
-To display pictures one by one, for a fixed duration, without repetition from a folder.
+To display pictures one by one, for a fixed duration, without repetition from a folder and its subfolders.
 
 ## Roadmap
 ___
 To add proper exceptions
 To add UI
-To improve the view picture methods
+To improve the view picture methods
 
 ## Requirements
 * python3
