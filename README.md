@@ -16,7 +16,7 @@ libraries on their desktops. Point this application to the folder and set a time
 
 ## Limitations
 
-- No executable package at the moment (Need to follow all the steps in To Run section)
+- No executable package at the moment (Need to follow all the steps in [To run](#to-run) section)
 - No UI to enter the folder path and timer (Input section in the code at the moment)
 - No back button
 - No pause button
